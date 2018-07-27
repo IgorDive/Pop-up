@@ -1,0 +1,117 @@
+
+body {
+	min-height: 100vh;
+	font-size: 10px; 
+}
+
+.notifications {
+	position: fixed;
+	top: 10px;
+	right: 10px;
+	width: 500px;
+	word-spacing: 0px;
+	background-color: rgb(240, 240, 240); 
+	overflow: hidden;
+	box-shadow: 5px 5px 5px darkgray;
+}
+
+.information {
+	width: calc(100% - 65px);
+	height: 140px;
+	outline: solid black 1px;
+	font: 1rem Arial;
+	margin: 10px 5px 20px 10px;
+	padding: 5px;
+	float: left;
+}
+
+.close-button {
+	width: 40px;
+	font: 1rem/1.5 Arial;
+	color: darkgray;
+	text-align: center;
+	float: right;
+	cursor: pointer;
+}
+
+.close-button:hover {
+	background-color: red;
+}
+
+.footer {
+	width: 100%;
+	
+	background-color: lightgray;
+	word-spacing: 0px;
+	overflow: hidden;
+	
+}
+
+.disable-checkbox {
+	float: left;
+	margin: 24px 5px 0px 10px;
+	color: darkgray;
+	cursor: pointer;
+	
+}
+
+.label-of-disable-checkbox {
+	float: left;
+	font: 1rem Arial;
+	margin: 22px 5px;
+	color: darkgray;
+	cursor: pointer;
+	
+}
+
+.right-control-button {
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	border: solid darkgray 1px;
+	border-radius: 50%;
+	font: 2rem/1.25 Arial;
+	color: darkgray;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.right-control-button:active {
+	box-shadow: 0px 0px 20px gray inset;
+}
+
+.left-control-button {
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin: 10px 5px;
+	border: solid darkgray 1px;
+	border-radius: 50%;
+	font: 2rem/1.25 Arial;
+	color: darkgray;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+}
+
+.left-control-button:active {
+	box-shadow: 0px 0px 20px gray inset;
+}
+
+.arr-statuses {
+	float: right;
+	margin: 26px 5px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.active {
+	background-color: blue;
+}
+
+.deactive {
+	background-color: darkgrey;
+}
